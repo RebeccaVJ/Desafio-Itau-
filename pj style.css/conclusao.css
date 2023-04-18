@@ -1,0 +1,92 @@
+@import url("pj style.css/style.css");
+
+.principal-titulo {
+    font-size: 40px;
+}
+
+.principal {
+    display: flex;
+    font-family: var(--fonte-principal);
+    justify-content: center;
+    font-weight: 700;
+    height: 80vh;
+    width: 500px;
+}
+
+.resultado__dados {
+    padding: 1rem;
+}
+
+.resultado__dados-texto {
+    color: var(--branco);
+    margin-right: 50px;
+    margin: 1rem 10px 1rem 0;
+}
+
+.texto__parabens-cliente {
+    font-weight: 800;
+    font-size: 39px;
+}
+
+.texto__parabens-nome-cliente {
+    font-weight: 800;
+    font-size: 48px;
+}
+
+.texto__parabens-paragrafo {
+    font-size: 37px;
+    max-width: 80%;
+    padding: 2rem 0 1rem 0;
+}
+
+.dados__cliente {
+    background-color: var(--branco);
+    padding: 1rem;
+    border-radius: 8px;
+    max-width: 60%;
+    height: 43vh;
+}
+
+.dados__cliente-titulo {
+    padding: 1.5rem;
+    justify-content: center;
+    margin-left: 4rem;
+}
+
+.dados__cliente-item {
+    padding: 12px;
+    color: var(--cinza-escuro);
+}
+
+.dados__item-negrito {
+    color: var(--preto);
+}
+
+.produtos {
+    display: grid;
+    max-width: 44%;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-right: 18px;
+    margin-top: 1rem;
+}
+
+.produtos__adicionais {
+    background-color: var(--branco);
+    padding: 1rem; 
+    border-radius: 10px;
+    border-top: 11px solid var(--azul);
+    font-weight: 400;
+    height: 70%;
+    margin-bottom: 0;
+}
+
+.produtos__adicionais-titulo {
+    display: inline;
+    font-size: 16px;
+}
+
+.produtos__adicionais-texto {
+    font-size: 14px;
+    padding: 1rem 0 0 0;
+}

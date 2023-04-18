@@ -1,0 +1,40 @@
+@import url("pj style.css/style.css");
+
+.botoes-form {
+    display: flex;
+    padding: 2rem;
+    justify-content: space-between;
+}
+
+.voltar__link-botao {
+    padding: 1rem;
+    width: 15%;
+    border-radius: 5px;
+    border: 2px solid var(--azul);
+    text-align: center;
+}
+
+.voltar__link-botao:active {
+    background-color: #d3d1d1;
+}
+
+.voltar-link {
+    padding: 1rem;
+    color: var(--preto);
+    font-weight: 700;
+    font-size: 20px;
+    text-decoration: none;
+} 
+
+.abrir__conta-botao {
+    margin: 0;
+    width: 25%;
+}
+
+.abrir__conta-link {
+    font-size: 18px;
+}
+
+.cadastro-input {
+    background-color: var(--cinza-normal);
+}

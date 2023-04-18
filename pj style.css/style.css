@@ -1,0 +1,114 @@
+:root {
+    --cor-background: #EC7000;
+    --fonte-principal: 'Inter';
+    --branco: #FFFFFF;
+    --cinza-claro: #FBF8F8;
+    --cinza-escuro: #56504C;
+    --cinza-normal: #D9D9D9;
+    --azul: #106EB0;
+    --preto: #000000;
+
+}
+
+body {
+    background-color: var(--cor-background);
+    font-family: var(--fonte-principal);
+    min-width: 100%;
+}
+
+.cabecalho {
+    padding: 1.5rem 2rem;
+}
+
+.cabecalho__itau-empresas {
+    margin-left: 2rem;
+}
+
+.principal {
+    min-width: 100%;
+    margin-bottom: 3rem;
+}
+
+.principal-titulo {
+    font-weight: 700;
+    font-size: 45px;
+    color: var(--branco);
+    text-align: center;
+    margin: 1.5rem 0 1rem 0;
+}
+
+.cadastro-conta {
+    background-color: var(--branco);
+    width: 70%;
+    margin: auto;
+    border-radius: 8px;
+    height: 36rem;
+
+}
+
+.cadastro-titulo {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    padding: 2rem;
+}
+
+.cadastro-form {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1.5rem;
+}
+
+.cadastro-login {
+    width: calc(100% / 3 - 10px);
+    margin: 1rem 0 1.5rem 0;
+}
+
+.razao-espaco {
+    width: 474px;
+}
+
+.cadastro-input {
+    border: none;
+    border-radius: 6px;
+    background-color: var(--cinza-claro);
+    height: 40px;
+    min-width: 90%;
+}
+
+.cadastro__label {
+    font-weight: 700;
+    color: var(--cinza-escuro);
+}
+
+.input__checkbox {
+    min-width: 15%;
+    margin-top: 1rem;
+}
+
+.label__checkbox {
+    font-weight: 700;
+    font-size: 12px;
+    color: var(--cinza-escuro);
+}
+
+.abrir__conta-botao {
+    background-color: var(--cor-background);
+    padding: 1rem;
+    width: 20%;
+    text-align: center;
+    border-radius: 5px;
+    margin: auto;
+}
+
+.abrir__conta-botao:active {
+    background-color: #d56400;
+}
+
+.abrir__conta-link {
+    border: none;
+    color: var(--branco);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 15px;
+}
