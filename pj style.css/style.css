@@ -74,6 +74,7 @@ body {
     background-color: var(--cinza-claro);
     height: 40px;
     min-width: 90%;
+    margin-top: 1rem;
 }
 
 .cadastro__label {
