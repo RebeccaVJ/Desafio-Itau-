@@ -33,6 +33,8 @@
 
 .abrir__conta-link {
     font-size: 18px;
+    text-decoration: none;
+    color: var(--branco);
 }
 
 .cadastro-input {
