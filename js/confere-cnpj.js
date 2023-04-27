@@ -1,7 +1,9 @@
 export default function cnpjConfirmado(campo) {
     const cnpj = campo.value.replace(/\.|-/g, "");
     if(validandoNumerosRepetidos(cnpj) || validandoPrimeiroDigito(cnpj) || validandoSegundoDigito(cnpj)) {
-        campo.setCustomValidty('Esse cnpj não é válido')
+       console.log("Esse cnpj não existe")
+    } else {
+        console.log("Esse cnpj existe")
     }
 }
 

@@ -1,5 +1,5 @@
-import cnpjConfirmado from "./confere-cnpj";
-const camposFormulario = document.querySelector("[required]");
+import cnpjConfirmado from "./confere-cnpj.js";
+const camposFormulario = document.querySelectorAll('[required]')
 
 // formulario.addEventListener("submit", (e) => {
 //     e.preventDefault();
@@ -20,10 +20,10 @@ const camposFormulario = document.querySelector("[required]");
 // })
 
 camposFormulario.forEach((campo) => {
-    campo.add.addEventListener("blur", () => verificandoCampos());
+    campo.addEventListener("blur", () => verificandoCampos(campo));
 })
 
-function verificandoCampos() {
+function verificandoCampos(campo) {
     if (campo.name == "cnpj" && campo.value.length >= 14 ) {
         cnpjConfirmado(campo);
     }
